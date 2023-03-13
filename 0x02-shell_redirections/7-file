@@ -1,8 +1,2 @@
 #!/bin/bash
-
-# create the file with the specified name
-touch '*\\'"Best School"'\\*$?*****:)'
-
-# add the text "Best School" to the file, followed by a new line
-echo "Best School" >> '*\\'"Best School"'\\*$?*****:)'
-
+echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
