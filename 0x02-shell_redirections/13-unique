@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# read input from stdin
+while read word; do
+  echo "$word"
+done | sort | uniq -u
+

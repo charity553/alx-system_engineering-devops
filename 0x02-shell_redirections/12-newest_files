@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# list the 10 newest files in the current directory
+ls -1t | head -n 10
+

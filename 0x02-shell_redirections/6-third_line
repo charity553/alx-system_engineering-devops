@@ -1,0 +1,16 @@
+#!/bin/bash
+# This script displays the third line of the file "iacta"
+
+FILE="iacta"
+LINE_NUMBER=3
+
+# Check if the file exists
+if [ ! -f "$FILE" ]; then
+  echo "Error: File '$FILE' does not exist."
+  exit 1
+fi
+
+# Display the specified line from the file
+line=$(sed -n "${LINE_NUMBER}p" "$FILE")
+echo "The third line of the file '$FILE' is: $line"
+

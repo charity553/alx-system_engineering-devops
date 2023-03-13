@@ -1,0 +1,2 @@
+echo "Academic" | tr 'Ac' 'Ze'
+

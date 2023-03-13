@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Read the /etc/passwd file and output the user and home directory information
+while IFS=: read -r user _ uid _ gid info home shell; do
+    echo "$user: $home"
+done < /etc/passwd | sort
+
